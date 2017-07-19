@@ -1,0 +1,37 @@
+{
+  "name": "react-blogpost",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple React Blog post app",
+  "author": "ameya",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^2.2.4",
+    "jsdom": "^8.5.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.5.3",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^0.14.8",
+    "react-dom": "^15.6.1",
+    "react-redux": "^4.3.0",
+    "react-router": "^2.8.1",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-form": "^6.8.0",
+    "redux-promise": "^0.5.3",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  }
+}
